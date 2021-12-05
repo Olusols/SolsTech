@@ -39,7 +39,9 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'django.contrib.staticfiles', 'sols',
+    'django.contrib.staticfiles',
+    'solsapp',
+    'sols',
     
 ]
 
@@ -59,7 +61,7 @@ ROOT_URLCONF = 'SolsTech.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
